@@ -1,0 +1,35 @@
+*, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.password-div {
+    margin: auto;
+    display: flex;
+}
+
+.password-div #password-input {
+    height: 2.5em;
+    padding-left: .5em;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    background-color: #ccc;
+}
+
+.password-div #password-input:focus {
+    outline: 0;
+}
+
+.password-div button {
+    padding: 0 .75em;
+    border: 0;
+    outline: 0;
+    border-radius: 0 5px 5px 0;
+    background-color: #fff;
+}
